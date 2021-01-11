@@ -20,7 +20,7 @@
     "predeploy": "yarn build",
     "deploy": "gh-pages -b master -d build"
   },
-  "homepage": "http://erfa.github.io/erikfahlen.se",
+  "homepage": "http://erfa.github.io/",
   "eslintConfig": {
     "extends": [
       "react-app",

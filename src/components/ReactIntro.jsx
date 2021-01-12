@@ -2,7 +2,11 @@ import React, { useEffect } from 'react'
 import logo from '../logo.svg'
 
 export const ReactIntro = () => {
-  useEffect(() => document.title = 'React App')
+  useEffect(() => {
+    document.title = 'React App'
+    document.getElementById('favicon').href = 'favicon.ico'
+    document.getElementById('appleTouchIcon').href = 'logo192.png'
+  })
 
   return <>
     <header className="App-header">

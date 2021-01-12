@@ -1,7 +1,11 @@
 import React, { useEffect } from 'react'
 
 export const OBSControllerInfo = () => {
-  useEffect(() => document.title = 'OBS Controller')
+  useEffect(() => {
+    document.title = 'OBS Controller'
+    document.getElementById('favicon').href = 'obs-controller.ico'
+    document.getElementById('appleTouchIcon').href = 'obs-controller192.png'
+  })
 
   return <div style={{width: 400, margin: 'auto'}}>
     <h1>OBS Controller</h1>
